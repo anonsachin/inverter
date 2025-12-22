@@ -1,0 +1,6 @@
+** sch_path: /foss/designs/inverter/xschem/Inverter.sch
+.subckt Inverter VCC Out Inp VSS
+*.PININFO Inp:B VSS:B Out:B VCC:B
+XM2 Out Inp VCC VCC sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 m=1
+XM3 Out Inp VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+.ends
