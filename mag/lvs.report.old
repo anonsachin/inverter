@@ -1,0 +1,215 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_KKBWU4 in circuit Inverter (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_CLCAJE in circuit Inverter (0)(1 instance)
+
+Subcircuit summary:
+Circuit 1: Inverter                        |Circuit 2: Inverter                        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: Inverter                        |Circuit 2: Inverter                        
+-------------------------------------------|-------------------------------------------
+Out                                        |Out                                        
+Inp                                        |Inp                                        
+VCC                                        |VCC                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes Inverter and Inverter are equivalent.
+
+Cell tt_um_sachin_inverter (0) disconnected node: clk
+Cell tt_um_sachin_inverter (0) disconnected node: ena
+Cell tt_um_sachin_inverter (0) disconnected node: rst_n
+Cell tt_um_sachin_inverter (0) disconnected node: ua[2]
+Cell tt_um_sachin_inverter (0) disconnected node: ua[3]
+Cell tt_um_sachin_inverter (0) disconnected node: ua[4]
+Cell tt_um_sachin_inverter (0) disconnected node: ua[5]
+Cell tt_um_sachin_inverter (0) disconnected node: ua[6]
+Cell tt_um_sachin_inverter (0) disconnected node: ua[7]
+Cell tt_um_sachin_inverter (0) disconnected node: ui_in[0]
+Cell tt_um_sachin_inverter (0) disconnected node: ui_in[1]
+Cell tt_um_sachin_inverter (0) disconnected node: ui_in[2]
+Cell tt_um_sachin_inverter (0) disconnected node: ui_in[3]
+Cell tt_um_sachin_inverter (0) disconnected node: ui_in[4]
+Cell tt_um_sachin_inverter (0) disconnected node: ui_in[5]
+Cell tt_um_sachin_inverter (0) disconnected node: ui_in[6]
+Cell tt_um_sachin_inverter (0) disconnected node: ui_in[7]
+Cell tt_um_sachin_inverter (1) disconnected node: ui_in[7]
+Cell tt_um_sachin_inverter (1) disconnected node: ui_in[6]
+Cell tt_um_sachin_inverter (1) disconnected node: ui_in[5]
+Cell tt_um_sachin_inverter (1) disconnected node: ui_in[4]
+Cell tt_um_sachin_inverter (1) disconnected node: ui_in[3]
+Cell tt_um_sachin_inverter (1) disconnected node: ui_in[2]
+Cell tt_um_sachin_inverter (1) disconnected node: ui_in[1]
+Cell tt_um_sachin_inverter (1) disconnected node: ui_in[0]
+Cell tt_um_sachin_inverter (1) disconnected node: ua[7]
+Cell tt_um_sachin_inverter (1) disconnected node: ua[6]
+Cell tt_um_sachin_inverter (1) disconnected node: ua[5]
+Cell tt_um_sachin_inverter (1) disconnected node: ua[4]
+Cell tt_um_sachin_inverter (1) disconnected node: ua[3]
+Cell tt_um_sachin_inverter (1) disconnected node: ua[2]
+Cell tt_um_sachin_inverter (1) disconnected node: ena
+Cell tt_um_sachin_inverter (1) disconnected node: clk
+Cell tt_um_sachin_inverter (1) disconnected node: rst_n
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Removing zero-valued device r from cell tt_um_sachin_inverter (0) makes a better match
+Making another compare attempt.
+
+Cell tt_um_sachin_inverter (0) disconnected node: clk
+Cell tt_um_sachin_inverter (0) disconnected node: ena
+Cell tt_um_sachin_inverter (0) disconnected node: rst_n
+Cell tt_um_sachin_inverter (0) disconnected node: ua[2]
+Cell tt_um_sachin_inverter (0) disconnected node: ua[3]
+Cell tt_um_sachin_inverter (0) disconnected node: ua[4]
+Cell tt_um_sachin_inverter (0) disconnected node: ua[5]
+Cell tt_um_sachin_inverter (0) disconnected node: ua[6]
+Cell tt_um_sachin_inverter (0) disconnected node: ua[7]
+Cell tt_um_sachin_inverter (0) disconnected node: ui_in[0]
+Cell tt_um_sachin_inverter (0) disconnected node: ui_in[1]
+Cell tt_um_sachin_inverter (0) disconnected node: ui_in[2]
+Cell tt_um_sachin_inverter (0) disconnected node: ui_in[3]
+Cell tt_um_sachin_inverter (0) disconnected node: ui_in[4]
+Cell tt_um_sachin_inverter (0) disconnected node: ui_in[5]
+Cell tt_um_sachin_inverter (0) disconnected node: ui_in[6]
+Cell tt_um_sachin_inverter (0) disconnected node: ui_in[7]
+Cell tt_um_sachin_inverter (1) disconnected node: ui_in[7]
+Cell tt_um_sachin_inverter (1) disconnected node: ui_in[6]
+Cell tt_um_sachin_inverter (1) disconnected node: ui_in[5]
+Cell tt_um_sachin_inverter (1) disconnected node: ui_in[4]
+Cell tt_um_sachin_inverter (1) disconnected node: ui_in[3]
+Cell tt_um_sachin_inverter (1) disconnected node: ui_in[2]
+Cell tt_um_sachin_inverter (1) disconnected node: ui_in[1]
+Cell tt_um_sachin_inverter (1) disconnected node: ui_in[0]
+Cell tt_um_sachin_inverter (1) disconnected node: ua[7]
+Cell tt_um_sachin_inverter (1) disconnected node: ua[6]
+Cell tt_um_sachin_inverter (1) disconnected node: ua[5]
+Cell tt_um_sachin_inverter (1) disconnected node: ua[4]
+Cell tt_um_sachin_inverter (1) disconnected node: ua[3]
+Cell tt_um_sachin_inverter (1) disconnected node: ua[2]
+Cell tt_um_sachin_inverter (1) disconnected node: ena
+Cell tt_um_sachin_inverter (1) disconnected node: clk
+Cell tt_um_sachin_inverter (1) disconnected node: rst_n
+Subcircuit summary:
+Circuit 1: tt_um_sachin_inverter           |Circuit 2: tt_um_sachin_inverter           
+-------------------------------------------|-------------------------------------------
+Inverter (1)                               |Inverter (1)                               
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: tt_um_sachin_inverter           |Circuit 2: tt_um_sachin_inverter           
+-------------------------------------------|-------------------------------------------
+VDPWR                                      |VDPWR                                      
+uio_in[0]                                  |VGND **Mismatch**                          
+ua[0]                                      |ua[0]                                      
+ua[1]                                      |ua[1]                                      
+clk                                        |clk                                        
+ena                                        |ena                                        
+rst_n                                      |rst_n                                      
+ua[2]                                      |ua[2]                                      
+ua[3]                                      |ua[3]                                      
+ua[4]                                      |ua[4]                                      
+ua[5]                                      |ua[5]                                      
+ua[6]                                      |ua[6]                                      
+ua[7]                                      |ua[7]                                      
+ui_in[0]                                   |ui_in[0]                                   
+ui_in[1]                                   |ui_in[1]                                   
+ui_in[2]                                   |ui_in[2]                                   
+ui_in[3]                                   |ui_in[3]                                   
+ui_in[4]                                   |ui_in[4]                                   
+ui_in[5]                                   |ui_in[5]                                   
+ui_in[6]                                   |ui_in[6]                                   
+ui_in[7]                                   |ui_in[7]                                   
+uio_oe[0]                                  |uio_oe[0]                                  
+uio_oe[1]                                  |uio_oe[1]                                  
+uio_oe[2]                                  |uio_oe[2]                                  
+uio_oe[3]                                  |uio_oe[3]                                  
+uio_oe[4]                                  |uio_oe[4]                                  
+uio_oe[5]                                  |uio_oe[5]                                  
+uio_oe[6]                                  |uio_oe[6]                                  
+uio_oe[7]                                  |uio_oe[7]                                  
+uio_out[0]                                 |uio_out[0]                                 
+uio_out[1]                                 |uio_out[1]                                 
+uio_out[2]                                 |uio_out[2]                                 
+uio_out[3]                                 |uio_out[3]                                 
+uio_out[4]                                 |uio_out[4]                                 
+uio_out[5]                                 |uio_out[5]                                 
+uio_out[6]                                 |uio_out[6]                                 
+uio_out[7]                                 |uio_out[7]                                 
+uo_out[0]                                  |uo_out[0]                                  
+uo_out[1]                                  |uo_out[1]                                  
+uo_out[2]                                  |uo_out[2]                                  
+uo_out[3]                                  |uo_out[3]                                  
+uo_out[4]                                  |uo_out[4]                                  
+uo_out[5]                                  |uo_out[5]                                  
+uo_out[6]                                  |uo_out[6]                                  
+uo_out[7]                                  |uo_out[7]                                  
+VGND                                       |VGND                                       
+---------------------------------------------------------------------------------------
+Cell pin lists for tt_um_sachin_inverter and tt_um_sachin_inverter altered to match.
+Device classes tt_um_sachin_inverter and tt_um_sachin_inverter are equivalent.
+
+Final result: Top level cell failed pin matching.

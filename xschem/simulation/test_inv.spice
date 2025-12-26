@@ -1,9 +1,13 @@
 ** sch_path: /foss/designs/inverter/xschem/test_inv.sch
-**.subckt test_inv pin_out
+**.subckt test_inv pin_out pin_out_parax
 *.opin pin_out
+*.opin pin_out_parax
 x1 VCC out_1 Inp VSS Inverter
 R1 pin_out out_1 1k m=1
 C1 out_1 GND 1p m=1
+x1 VCC out_parax Inp VSS inverter_parax
+R2 pin_out_parax out_parax 1k m=1
+C2 out_parax GND 1p m=1
 **** begin user architecture code
 
 ** opencircuitdesign pdks install
@@ -15,7 +19,7 @@ C1 out_1 GND 1p m=1
 * ngspice commands
 Vvcc VCC 0 DC 1.8
 Vvss VSS 0 DC 0
-Vin Inp 0 PWL(0ns 0V 10ns 0.8V 12ns 1.3V 14ns 1.8V)
+Vin Inp 0 PWL(0ns 0V 10ns 0.8V 12ns 1.3V 14ns 1.8V 110ns 1.8V 120ns 1.3V 122ns 0.8V 124ns 0V)
 .control
 save all
 tran 100p 300n
@@ -40,5 +44,9 @@ XM3 Out Inp VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2
 + mult=1 m=1
 .ends
 
+
+* expanding   symbol:  inverter_parax.sym # of pins=4
+** sym_path: /foss/designs/inverter/xschem/Inverter.sym
+.include /foss/designs/inverter/mag/Inverter.sim.spice
 .GLOBAL GND
 .end
