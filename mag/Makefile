@@ -1,6 +1,6 @@
 PROJECT_NAME ?= tt_um_sachin_inverter
 MAGIC_RC := $(PDK_ROOT)/sky130A/libs.tech/magic/sky130A.magicrc
-TEMPLATE_FILE := tt_analog_1x2.def
+TEMPLATE_FILE := tt_analog_2x2.def
 #TEMPLATE_FILE := tt_analog_1x2_3v3.def
 
 .PHONY: lvs magic start
@@ -28,8 +28,11 @@ antenna:
 drc:
 	magic -rcfile $(MAGIC_RC) -noconsole -dnull tcl/drc.tcl $(PROJECT_NAME)
 	
-$(PROJECT_NAME).sim.spice: $(PROJECT_NAME).mag
-	magic -rcfile $(MAGIC_RC) -noconsole -dnull tcl/extract_for_sim.tcl $(PROJECT_NAME)
+# $(PROJECT_NAME).sim.spice: $(PROJECT_NAME).mag
+# 	magic -rcfile $(MAGIC_RC) -noconsole -dnull tcl/extract_for_sim.tcl $(PROJECT_NAME)
+# 	rm -f *.ext
+$(PROJECT_NAME).lvs.spice: $(if $(GDS_ENABLE),../gds/$(PROJECT_NAME).gds,$(PROJECT_NAME).mag)
+	magic -rcfile $(MAGIC_RC) -noconsole -dnull $(if $(GDS_ENABLE),tcl/extract_gds_for_lvs.tcl,tcl/extract_for_lvs.tcl) $(PROJECT_NAME)
 	rm -f *.ext
 
 lvs.report: $(PROJECT_NAME).lvs.spice ../src/project.v
